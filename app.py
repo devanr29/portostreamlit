@@ -14,9 +14,9 @@ def resize_image(image_path, size=(300, 300)):
 
 # Resize and standardize images for GoatGuard
 goatguard_images = [
-    resize_image("goatguard1.jpg").rotate(-90, expand=True),
-    resize_image("goatguard2.jpg").rotate(-90, expand=True),
-    resize_image("goatguard3.jpg").rotate(-90, expand=True),
+    resize_image("goatguard1.JPG").rotate(-90, expand=True),
+    resize_image("goatguard2.JPG").rotate(-90, expand=True),
+    resize_image("goatguard3.JPG").rotate(-90, expand=True),
     resize_image("goatguard4.jpeg")
 ]
 
