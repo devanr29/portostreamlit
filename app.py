@@ -1,6 +1,7 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
 from PIL import Image
+from base64 import b64encode
 
 # Set page config
 st.set_page_config(page_title="Devan Ramadhana's Portfolio", page_icon="📚", layout="wide")
@@ -65,6 +66,11 @@ if selected_page == "About Me":
               - Thesis: Analyzing water quality parameters (Temperature, pH, Turbidity) for catfish growth using Machine Learning.
             """
         )
+        # Reading Profile
+    with open("CV Devan Ramadhana.pdf", "rb") as pdf_file:
+       pdf_bytes = pdf_file.read()
+
+    st.download_button(label="📄 Download my CV", data=pdf_bytes, file_name="CV Devan Ramadhana.pdf", mime="application/pdf",)
 
 elif selected_page == "Projects":
     st.title("My Projects")
