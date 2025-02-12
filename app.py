@@ -31,7 +31,7 @@ myipond_images = [
 # Navigation bar
 selected_page = option_menu(
     menu_title=None,  # Set None to display only icons
-    options=["About Me", "Projects", "Experience", "Certifications & Skills", "Contact"],
+    options=["About Me", "Projects", "Experience", "Skills", "Contact"],
     icons=["person", "folder", "briefcase", "mortarboard", "trophy", "phone"],
     menu_icon="cast",
     default_index=0,
@@ -161,11 +161,15 @@ elif selected_page == "Experience":
         """
     )
 
-elif selected_page == "Certifications & Skills":
-    st.title("Certifications & Skills")
+elif selected_page == "Skills":
+    st.title("Skills")
     st.markdown(
         """ 
-        ### Certifications
+        ### Certification
+        - [Latihan Keterampilan Manajemen Mahasiswa - Tingkat Menengah (Kemdikbudristek)](https://media.licdn.com/dms/image/v2/D562DAQEpdMK1dAV1JA/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1723105090837?e=1736604000&v=beta&t=80EEdgv984HwjpXjYOA0GBbHzbCgyz-soapEfrhx0f0)
+        - [Data Scientist Associate (DataCamp)](https://www.datacamp.com/certificate/DSA0013005065451)
+        
+        ### Course Completion
         - [Intro to Data Science (Cisco)](https://www.credly.com/badges/05cdc46b-3062-48c4-8840-659497579078/linked_in_profile)
         - [Belajar Visualisasi Data (Dicoding Academy)](https://www.dicoding.com/certificates/QLZ9QV0M9Z5D)
         - [Intro to Machine Learning (Kaggle)](https://www.kaggle.com/learn/certification/devanrmdhna/intro-to-machine-learning)
@@ -178,8 +182,6 @@ elif selected_page == "Certifications & Skills":
         - [Belajar Dasar Structured Query Language SQL (Dicoding Academy)](https://www.dicoding.com/certificates/81P27O35QZOY)
         - [Intermediate SQL (Sololearn)](https://www.sololearn.com/certificates/CC-UTFTEBFL)
         - [Red Hat System Administration II (Red Hat)](https://media.licdn.com/dms/image/v2/D562DAQG5uFBHcSoGRw/profile-treasury-document-cover-images_480/profile-treasury-document-cover-images_480/0/1713541275665?e=1736604000&v=beta&t=tz5q86nzGZaRdwjrgqFbJnuH1E9ERh9mZqp0Vj3ewsA)
-        - [Latihan Keterampilan Manajemen Mahasiswa - Tingkat Menengah (Kemdikbudristek)](https://media.licdn.com/dms/image/v2/D562DAQEpdMK1dAV1JA/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1723105090837?e=1736604000&v=beta&t=80EEdgv984HwjpXjYOA0GBbHzbCgyz-soapEfrhx0f0)
-        - [Data Scientist Associate (DataCamp)](https://www.datacamp.com/certificate/DSA0013005065451)
         
         ### Skills
         - **Technical Skills**: Python, C, SQL, Machine Learning, Data Visualization, IoT System Design
