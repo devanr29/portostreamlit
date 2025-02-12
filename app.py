@@ -179,6 +179,7 @@ elif selected_page == "Certifications & Skills":
         - [Intermediate SQL (Sololearn)](https://www.sololearn.com/certificates/CC-UTFTEBFL)
         - [Red Hat System Administration II (Red Hat)](https://media.licdn.com/dms/image/v2/D562DAQG5uFBHcSoGRw/profile-treasury-document-cover-images_480/profile-treasury-document-cover-images_480/0/1713541275665?e=1736604000&v=beta&t=tz5q86nzGZaRdwjrgqFbJnuH1E9ERh9mZqp0Vj3ewsA)
         - [Latihan Keterampilan Manajemen Mahasiswa - Tingkat Menengah (Kemdikbudristek)](https://media.licdn.com/dms/image/v2/D562DAQEpdMK1dAV1JA/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1723105090837?e=1736604000&v=beta&t=80EEdgv984HwjpXjYOA0GBbHzbCgyz-soapEfrhx0f0)
+        - [Data Scientist Associate (DataCamp)](https://www.datacamp.com/certificate/DSA0013005065451)
         
         ### Skills
         - **Technical Skills**: Python, C, SQL, Machine Learning, Data Visualization, IoT System Design
