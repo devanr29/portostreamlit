@@ -128,15 +128,18 @@ elif selected_page == "Experience":
           - Acting as a liaison between the internal laboratory and external parties.
           - Led branding initiatives to enhance the lab's public image and visibility.    
         - **Research Assistant**
-          - Developed machine learning models for water quality analysis and created Tableau dashboards.
-          - Participated in data challenges like Kaggle, JOINTS DATA COMPETITION, and COMPFEST Data Analytics Dash.
-          - Conducted sentiment analysis using web scraping and natural language processing (NLP).
+          - Created an unsupervised machine learning model for water quality analysis using KMeans clustering (scikit-learn) and determined the optimal number of clusters using the Elbow Method with Yellowbrick’s KelbowVisualizer.
+          - Collected review data on film series using web scraping techniques, including Selenium for dynamic website interaction and BeautifulSoup for HTML parsing, from IMDb.
+          - Conducted sentiment analysis on IMDb reviews using NLTK and scikit-learn to identify audience sentiment trends, patterns, and make sentiment predictions.
+          - Participating on Kaggle competition 'Spaceship Titanic'.
+          - Participating on JOINTS DATA COMPETITION on 17th April 2023.
+          - Participating on COMPFEST Data Analytics Dash on 3 September 2023.
 
      - **Himpunan Mahasiswa Teknik Telekomunikasi** (2023 - 2025)
         - **Vice President**
-          - Supervised and coordinated activities across 5 departments.
-          - Facilitated collaboration between ministries and departments to ensure smooth operations.
-          - Ensure effective management and operation of 5 departments under the Ministries
+          - Supervise and coordinate activities of the Ministry of Science and Student Development and the Ministry of External Affairs.
+          - Supervised five departments and ensured smooth operations among 60 members.
+          - Facilitated collaboration between ministries and departments to drive impactful projects.
           - Monitor progress and performance of ministry initiatives and projects
           - Maintain readiness to lead the association in emergency situations or when the President is unavailable
         - **Senior Staff of Public Relations Department**
